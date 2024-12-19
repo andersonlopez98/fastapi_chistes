@@ -1,0 +1,52 @@
+# Entornos virtuales
+venv/
+env/
+ENV/
+*.env
+environment/
+environment
+
+# Archivos de configuración de IDEs
+.idea/
+.vscode/
+
+# Archivos de Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de caché
+*.db
+*.sqlite3
+*.log
+
+# Archivos de dependencia
+Pipfile.lock
+poetry.lock
+*.egg-info/
+dist/
+build/
+
+# Archivos temporales de pruebas y cobertura
+.coverage
+nosetests.xml
+*.cover
+*.hypothesis/
+.tox/
+.coverage.*
+*.hypothesis/
+
+# Archivos de configuración de Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Archivos de compilación de Cython
+*.c
+*.cpp
+*.h
+*.so
+
+# Archivos de FastAPI y Uvicorn logs
+*.log
